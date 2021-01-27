@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, :active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button ::moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding-top: 92px;
+}
+
+footer a {
+  margin-bottom: 24px;
+}
+
+.created {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.by {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #9400FF;
+}
+
+.cop {
+  font-size: 11px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 80px;
+}
+
+header {
+  width: 100%;
+  min-height: 995px;
+  background-image: url(../img/backH.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header_top_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+  padding-top: 28px;
+  margin: 0 auto;
+}
+
+.header_top_content_middle {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header_top_content_middle a {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-right: 40px;
+}
+
+.header_top_content_middle a:last-child {
+  margin-right: 0px;
+}
+
+.button {
+  text-align: center;
+  color: #FFFFFF;
+  background: #9400FF;
+  border-radius: 200px;
+  font-size: 13px;
+}
+
+.buy {
+  line-height: 14px;
+  width: 91px;
+  height: 26px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header_middle_content h1 {
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-top: 143px;
+}
+
+.header_middle_content p {
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+  width: 538px;
+  margin: 14px 0px 58px 0px;
+}
+
+.fourB {
+  width: 212px;
+  height: 50px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.header_bottom_content {
+  margin-top: 133px;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_bottom_content_item {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+}
+
+.header_bottom_content_item h2 {
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+}
+
+.header_bottom_content_item p {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.main_content {
+  background-color: black;
+}
+
+.onehundredIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 147px;
+}
+
+.onehundredIcons_text {
+  margin-top: 348px;
+}
+
+.onehundredIcons_text h2 {
+  font-size: 48px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.onehundredIcons_text p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 22px 0px 65px 40px;
+}
+
+.onehundredIcons_img {
+  background-image: url(../img/bigphone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 979px;
+  margin-top: 101px;
+}
+
+.title_text p {
+  font-size: 29px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 31px;
+}
+
+.renderedIcons_img {
+  width: 100%;
+  height: 1147px;
+  background-image: url(../img/iconsback.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 99px;
+}
+
+.iconsrow {
+  height: 238px;
+  background-image: url(../img/iconsrow.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 64px;
+}
+
+.toomuchText {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 194px;
+}
+
+.toomuchText_item {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.toomuchText_item p {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.firstoftoomuchText_item {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.mail {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mail_img {
+  height: 396px;
+  width: 390px;
+  background-image: url(../img/mail.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mail_text {
+  width: 50%;
+}
+
+.mail_text h2 {
+  font-size: 29px;
+  line-height: 40px;
+  margin-top: 100px;
+  color: #FFFFFF;
+}
+
+.mail_text p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #EBEBEB;
+  margin-top: 35px;
+  margin-bottom: 26px;
+}
+
+.grab {
+  margin-top: 220px;
+  height: 443px;
+  background-image: url(../img/grab.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grab h2 {
+  font-size: 51px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.grab p {
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 42px;
+}
